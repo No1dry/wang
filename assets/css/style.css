@@ -534,7 +534,7 @@ a:hover {
 }
 
 .video-card{
-  width: 220px;
+  width: 420px;
   text-align:center;
 }
 
@@ -740,4 +740,5 @@ a:hover {
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   }
 }
+
 
