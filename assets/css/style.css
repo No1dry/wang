@@ -425,6 +425,36 @@ a:hover {
   color: var(--color-text-muted);
   line-height: 1.4;
 }
+.member-links {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 8px;
+}
+
+.member-link {
+  display: inline-block;
+  padding: 3px 9px;
+  border: 1px solid rgba(42, 74, 138, 0.25);
+  border-radius: 999px;
+  background: var(--color-tag-bg);
+  color: var(--color-accent);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.4;
+  white-space: nowrap;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.member-link:hover {
+  color: #ffffff;
+  background: var(--color-accent);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
 
 /* =============================================
    Graduated Alumni – horizontal card layout
