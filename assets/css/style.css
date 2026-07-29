@@ -784,23 +784,5 @@ a:hover {
   }
 }
 
-.student-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
-}
-
-.student-grid > .team-card {
-  flex: 0 0 160px;
-}
-
-@media (max-width: 600px) {
-  .student-grid > .team-card {
-    flex-basis: 140px;
-  }
-}
-
 
 
